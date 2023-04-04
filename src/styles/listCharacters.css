@@ -1,0 +1,267 @@
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(10, 30, 36);
+  padding: 0;
+  margin: 0;
+  cursor: default;
+}
+.color__background {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-end-start-radius: 40px;
+  border-end-end-radius: 40px;
+  width: 100%;
+  height: 25rem;
+  background-image: url('/src/assets/img/rick-and-morty-wallpaper.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-position: top;
+}
+
+header{
+  display: flex;
+}
+
+.container__header > .logo__header {
+  width: 180px;
+  height: 110px;
+}
+
+.container__li {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.container__li > .nome-personagem:hover{
+  color: rgb(10, 30, 36);
+  transition: 0.3s;
+}
+.logo__header{
+  /* margin-top: 70px; */
+  padding: 40px;
+  width:200px;
+}
+.container__header {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  display: flex;
+
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+
+input {
+  margin-top: 40px;
+  background-color: rgba(9, 2, 34, 0.219);
+  border: 2px solid rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 15px;
+  outline: none;
+  width: 120px;
+  color: white ;
+  font-weight: bold;
+}
+
+.homeBtn{
+  width: 80px;
+  height: 50px;
+  border: none;
+  background-color: white;
+  color: #0C98AB;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 4px;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 12px;
+  margin: 0 auto;
+  margin-top: 40px;
+  
+}
+#searchBtn{
+  width: 80px;
+  margin-top: 40px;
+  border: none;
+  background-color: white;
+  color: #0C98AB;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 12px;
+}
+.imagem_personagem {
+  margin-bottom: 25px;
+  width: 150px;
+  cursor: pointer;
+}
+.indentify {
+  width: 20px;
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  margin:15px;
+  gap: 100px;
+}
+li {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  list-style: none;
+}
+.card_characters{
+background-color: #0C98AB;
+padding: 30px;
+border-radius: 15px;
+margin: 0 auto;
+}
+.flex__form {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  gap: 15px;
+}
+::-webkit-input-placeholder {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 1em;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 15px;
+}
+img {
+  border-radius: 10px;
+  display: flex;
+  margin: 0 auto;
+}
+.nome-personagem{
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.logo__header2{
+  display: none;
+}
+
+button:hover, #searchBtn:hover{
+  background-color:#0C98AB;
+  color:white;
+  transition: 0.35s;
+}
+
+.card_characters > div{
+  display: flex;
+  font-size: 1.2rem;
+
+  color: white;
+  font-weight: bold;
+
+  margin: 0 auto;
+
+}
+
+.div__container > h2{
+  font-size: 1.2rem;
+}
+
+.div__container{
+  display: flex;
+  flex-direction: column;
+
+  width: 90%;
+  align-items: flex-start;
+}
+
+@media (min-width: 700px) {
+ 
+  input {
+    margin-top: 23px;
+    width: 250px;
+    height: 20px;
+   
+  }
+ 
+  #searchBtn{
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  ul{
+    
+    flex-wrap: wrap;
+      display: flex;
+      flex-direction: row;
+      margin: 15px;
+      gap: 40px;
+      max-width: 80em;
+      margin: 0 auto;
+  }
+
+  .card_characters{
+    margin: 0 auto;
+    width: 214px;
+    }
+
+    .main__list{
+      margin-top: 40px;
+    }
+
+    .logo__header2{
+      display: block;
+      width: 200px;
+      height: 100px;
+    }
+    .logo__header{
+      display: none;
+    }
+    .homeBtn{
+      margin-top: 20px;
+    }
+
+
+
+    
+}
+
+.mesage__error{
+  width: 80%;
+  background-color: #0C98AB;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+
+.div__flex{
+  display: flex;
+  gap: 90px;
+}
+
+.alien__img{
+  width: 40px;
+  height: 40px;
+}
+.img__character{
+  width: 100%;
+  cursor: pointer;
+}
+
+.name__character{
+  cursor: pointer;
+}
+

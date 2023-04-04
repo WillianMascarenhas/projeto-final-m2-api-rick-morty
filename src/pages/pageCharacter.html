@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick & Morty</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./../styles/pageCharacter.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1FcfpXeF2NwRBPTXcHuy3iUaoDdv034V5uQ&usqp=CAU">
+</head>
+<body>
+    <div class="color__background">
+        <header class="container__header">
+            <img class="logo__header" src="/src/assets/img/logo.8674ff3fe88ec233de25.png.png" alt="Logo do site">
+            <div class="flex__form">
+              <button class="btn__home" >Home</button>
+              <button class="btn__back--list">Todos os personagens</button>
+            </div>
+    </header>
+    <aside>
+               <div class="div-personagem">
+                <h1 class="name"></h1>
+                <img class="image" src="" alt="">
+                <p class="type"></p>
+                <button class="moreinfos">Mais Informações</button>
+             </div>
+           </aside>
+        </div>
+      </div>
+      <script type="module" src="../scripts/characterPage.js"></script>
+      <dialog class="container__modal">
+        <span class="close__modal">X</span>
+        <ul class="container__card"></ul>
+
+      </dialog>
+</body>
+</html>

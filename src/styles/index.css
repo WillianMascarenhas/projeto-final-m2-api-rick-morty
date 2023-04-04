@@ -1,0 +1,251 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(10, 30, 36);
+    cursor: default;
+
+
+}
+
+.color__background{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-end-start-radius: 40px;
+    border-end-end-radius: 40px;
+    width: 100%;
+    height: 28rem;
+    background-image:url('/src/assets/img/rick.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;  
+    background-attachment: fixed;
+    background-position: top;
+
+}
+
+
+.background{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit:cover;
+}
+
+.container__header{
+    width: 100vw;
+    height: 150px;
+    
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    position: relative;
+}
+
+.container__header > .logo__header{
+    width: 200px;
+    height: 80px;
+    
+    margin-left: 20px;
+}
+
+.btn__header{
+    width: 22px;
+    height: 22px;
+
+    cursor: pointer;
+
+    margin-right: 20px;
+
+    align-self: flex-end;
+
+}
+
+.btn__dropDown{
+    background-color: #0c98ab;
+
+    padding: 3px 6px;
+
+    border-radius: 10px ;
+
+    margin-right: 20px;
+}
+
+.flex__none{
+    display: none;
+}
+
+
+.btn__characters1{
+    display: none;
+    background-color: white;
+    color: #0c98ab;
+    font-size: 1.2rem;
+    align-self: center;
+    margin: 32px;
+    padding: 4px 10px;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.btn__characters1:hover{
+    transition: 0.3s;
+  
+
+    background-color: #0c98ab;
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+.container__main{
+    width: 100vw;
+    height: 100%;
+
+    color: white;
+
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.top__main{
+    text-shadow: 2px 2px #0d031f;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
+
+.bottom__main{
+    background-color: #010f11;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+.btn__characters{
+    color: #0c98ab;
+
+    font-size: 1.2rem;
+
+    align-self: center;
+
+    margin: 32px;
+
+    cursor: pointer;
+}
+
+.container__card--homePage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 100%;
+
+    gap: 20px;
+}
+
+.container__card--homePage > li {
+    width: 150px;
+    background-color: #0c98ab;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 10px;
+
+    cursor: pointer;
+
+}
+
+.container__card--homePage > li:hover{
+    background-color: white;
+    color: #0c98ab;
+
+    transition: 0.4s;
+}
+
+.card__img--homePage{
+    width: 100%;
+
+    border-radius:10px ;
+
+    margin-bottom: 10px;
+
+    cursor: pointer;
+
+}
+
+.container__card--homePage > span{
+    font-size: 1rem;
+
+    cursor: pointer;
+
+}
+
+
+
+.loadding{
+    width: 60%;
+
+    margin: 0 auto;
+
+    border-radius: 100px;
+
+}
+
+
+
+@media(min-width: 660px){
+    .btn__dropDown{
+        display: none;
+    }
+    .btn__characters1{
+        display: flex;
+    }
+    
+    .top__main > span {
+        width: 60%;
+    }
+
+    .color__background{
+        width: 100%;
+        height: 38rem;
+    }
+
+    .top__main{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 70%;
+        margin-left: 15px;
+        margin-bottom: 200px;
+        border-radius: 4px;
+    }
+
+    .loadding{
+        width: 24%;
+    
+        margin: 0 auto;
+    
+        border-radius: 100px;
+    
+    } 
+}

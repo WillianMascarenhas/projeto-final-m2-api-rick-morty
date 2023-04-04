@@ -1,0 +1,282 @@
+.color__background {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-end-start-radius: 40px;
+  border-end-end-radius: 40px;
+  width: 100%;
+  height: 35rem;
+  background-image: url("/src/assets/img/rick-and-morty-wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-position: top;
+}
+
+::-webkit-input-placeholder {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 1em;
+}
+
+.div-personagem {
+  align-items: center;
+  padding-top: 4vh;
+  background-color: rgba(1, 12, 4, 0.233);
+
+  padding: 2vh;
+  margin: 4vh;
+  border-radius: 1vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.type {
+  color: white;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.container__header {
+  width: 100vw;
+  height: 150px;
+
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  position: relative;
+}
+
+.container__header > .logo__header {
+  width: 180px;
+  height: 110px;
+  margin-left: 20px;
+  /* display: none; */
+}
+
+.btn__header {
+  background-color: rgba(10, 5, 5, 0.575);
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 20px;
+  align-self: flex-end;
+  padding: 2px;
+}
+
+input {
+  background-color: rgba(9, 2, 34, 0.219);
+  border: 2px solid rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 15px;
+  outline: none;
+  width: 200px;
+  right: 1px;
+  position: absolute;
+  margin-right: 70px;
+}
+
+.flex__form {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+
+.container__form > input {
+  display: none;
+  padding: 4px 10px;
+
+  border-radius: 10px;
+  bottom: none;
+  background-color: #010f11;
+  color: white;
+  font-weight: 700;
+  position: absolute;
+  right: 15px;
+  bottom: 34px;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  height: 23rem;
+  background-image: url("/img/rick-and-morty-wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
+  background-attachment: fixed;
+  background-position: top;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.container__modal{
+  animation: modalAnimation 1s ease;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 10em;
+  border: 2px solid #045661;
+  border-radius: 10px;
+  background-color: #0c98ab;
+}
+
+.close__modal {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: end;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  padding-right: 10px;
+  font-size: 25px;
+}
+
+h2{
+display: flex;
+justify-content: center;
+color: white;
+margin-top: 15px;
+}
+
+img{
+  border-radius: 10px;
+  display: flex;
+  margin: 0 auto;
+}
+
+span{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-top: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(10, 30, 36);
+}
+
+.aside {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.infos {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.name {
+  color: #0c98ab;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 10px;
+  text-shadow: 0em 0.1em 0.1em rgb(0, 0, 0);
+}
+
+.moreinfos{
+  cursor: pointer;
+}
+
+.imgRick {
+  margin-top: 30px;
+}
+
+.btn__home,
+.btn__back--list {
+  margin-top: 20px;
+  border: none;
+  background-color: white;
+  color: #0c98ab;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 4px;
+  justify-content: center;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 12px;
+}
+
+.btn__home:hover,
+.btn__back--list:hover {
+  background-color: #0c98ab;
+  color: white;
+  transition: 0.7s;
+}
+
+.moreinfos {
+  margin-top: 20px;
+  display: flex;
+  border: none;
+  background-color: #0c98ab;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 4px;
+  justify-content: center;
+}
+
+.infos {
+  color: #0c98ab;
+  font-weight: bold;
+}
+
+.main-container {
+  width: 76em;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+p {
+  line-height: 27px;
+  font-size: 18px;
+}
+
+.image{
+    border-radius: 10px;
+    border: 4px solid #0c98ab;
+}
+
+.name{
+    margin-bottom: 18px;
+}
+
+@media (min-width: 555px) {
+
+  .flex__form {
+     flex-direction:row;
+     margin-right: 5em;
+     gap: 10px;
+  }
+
+
+  .container__modal{
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 2em;
+    border: 2px solid #045661;
+    border-radius: 10px;
+    background-color: #0c98ab;
+  }
+}
+
+@keyframes modalAnimation {
+  0%{
+      opacity: 0;
+      transform: translateY(-30%);
+  }
+  100%{
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
