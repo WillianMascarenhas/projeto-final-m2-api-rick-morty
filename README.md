@@ -1,4 +1,4 @@
-#Catalog Rick & Morty
+Catalog Rick & Morty
 
 Esse projeto é basicamente um local onde o usuário poderá ver todos os personagens do seria Rick & Morty, ter acesso a informações e pesquisar por personagens semelhantes.
 
